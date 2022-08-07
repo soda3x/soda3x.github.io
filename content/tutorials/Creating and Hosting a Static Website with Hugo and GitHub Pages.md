@@ -2,7 +2,7 @@
 title: "Creating and Hosting a Static Website with Hugo and GitHub Pages"
 date: 2022-08-07T12:32:23+09:30
 draft: false
-toc: false
+toc: true
 images:
 ---
 

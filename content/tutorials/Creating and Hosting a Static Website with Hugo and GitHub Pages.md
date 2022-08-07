@@ -4,6 +4,7 @@ date: 2022-08-07T12:32:23+09:30
 draft: false
 toc: true
 images:
+tags: "hugo, go, web-dev, blog"
 ---
 
 ## What is Hugo, and why?

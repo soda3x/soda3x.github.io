@@ -28,11 +28,15 @@ Scoop is a package manager for Windows. It allows you to install applications fr
 
 To get Scoop, run the following in a Powershell session:
 
-`irm get.scoop.sh | iex`
+```bash
+irm get.scoop.sh | iex
+```
 
 _**Note:** If the above doesn't work and you are presented with an error regarding Execution Policy, run the following:_
 
-`Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
+```bash
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 
 ### GitHub account
 
@@ -42,7 +46,9 @@ If you don't have one, you'll need to sign up for one at GitHub.com. Pick your u
 
 Hugo can be found on Scoop. To install Hugo, simply run:
 
-`scoop install hugo-extended`
+```bash
+scoop install hugo-extended
+```
 
 ## Creating a Website
 
@@ -50,7 +56,9 @@ Now that Hugo is installed, we can create our first website.
 
 Hopefully you've still got that Powershell session open. If not, just open a new one and run the following:
 
-`hugo new site <site-title>`
+```bash
+hugo new site <site-title>
+```
 
 Where `<site-title>` is the name of your flashy new website.
 
@@ -95,7 +103,9 @@ There are a few ways to create content for your website, the first is to manuall
 
 Let's create our first piece of content using the second method. Run the following:
 
-`hugo new posts/now-this-is-content.md`
+```bash
+hugo new posts/now-this-is-content.md
+```
 
 This will create a markdown file with front matter such as the title, the time created and whether or not the post is a draft.
 
@@ -114,7 +124,15 @@ images:
 
 ## Test the Site Locally
 
-Before changing draft to false, we can spin up a local server and test out our site. Run: `hugo server -D` to host the site and include drafts (that's what `-D` is doing here).
+Before changing draft to false, we can spin up a local server and test out our site.
+To host the site and include drafts, Run:
+
+```bash
+hugo server -D
+```
+
+_The `-D` is allowing us to serve drafts._
+
 The output of this command gives us some insight into how long it took Hugo to build the site and it also gives us a localhost address where we can navigate to to see our website.
 
 ![Hugo Website running locally](/hugo-1.png)
@@ -190,7 +208,11 @@ For example:
 
 You can have as many `[[menu.main]]` elements as you like and the `weight` parameter is the order from left-to-right or top-to-bottom the pages are displayed in.
 
-To then add content to this new page, you would run, for example: `hugo new recipes/beans-and-mash.md`
+To then add content to this new page, you would run, for example:
+
+```bash
+hugo new recipes/beans-and-mash.md
+```
 
 #### Adding a Page that doesn't serve the posts archetype
 

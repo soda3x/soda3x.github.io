@@ -212,7 +212,7 @@ You can have as many `[[menu.main]]` elements as you like and the `weight` param
 To then add content to this new page, you would run, for example:
 
 ```bash
-hugo new recipes/beans-and-mash.md
+hugo new recipes/bangers-and-mash.md
 ```
 
 #### Adding a Page that doesn't serve the posts archetype

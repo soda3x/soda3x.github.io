@@ -4,57 +4,59 @@ title = 'Bradley Newman'
 theme = 'hello-friend-ng'
 paginate = 10
 
+enableEmoji = true
+
 [params]
-    dateform        = "Jan 2, 2006"
-    dateformShort   = "Jan 2"
-    dateformNum     = "2006-01-02"
-    dateformNumTime = "2006-01-02 15:04"
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
 
-    # Subtitle for home
-    homeSubtitle = "Father, Software Engineer, Game Developer, Musician."
+# Subtitle for home
+homeSubtitle = "Father, Software Engineer, Game Developer, Musician."
 
-    # Set disableReadOtherPosts to true in order to hide the links to other posts.
-    disableReadOtherPosts = false
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
 
-    # Enable sharing buttons, if you like
-    enableSharingButtons = true
+# Enable sharing buttons, if you like
+enableSharingButtons = true
 
-    # Metadata mostly used in document's head
-    description = "Creative fellow."
-    keywords = "homepage, blog"
-    images = [""]
+# Metadata mostly used in document's head
+description = "Creative fellow."
+keywords = "homepage, blog"
+images = [""]
+
+[[params.social]]
+name = "github"
+url = "https://github.com/soda3x/"
+
+[[params.social]]
+name = "soundcloud"
+url = "https://soundcloud.com/okamimusician/"
+
+[[params.social]]
+name = "spotify"
+url = "https://open.spotify.com/artist/3xkuiAKltD9dwOcFjVlK8R/"
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+category = "blog"
+tag = "tags"
+series = "series"
 
 [languages]
-    [languages.en]
-        title = "bradley newman."
-        subtitle = "creative fellow."
-        keywords = ""
-        copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-        readOtherPosts = "Read other posts"
+[languages.en]
+title = "bradley newman."
+subtitle = "creative fellow."
+keywords = ""
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+readOtherPosts = "Read other posts"
 
-    [languages.en.params.logo]
-        logoText = "bradley newman."
-        logoHomeLink = "/"
-
-[[params.social]]
-  name = "github"
-  link = "https://github.com/soda3x"
-
-[[params.social]]
-  name = "soundcloud"
-  link = "https://soundcloud.com/okamimusician"
-
-[[params.social]]
-  name = "spotify"
-  link = "https://open.spotify.com/artist/3xkuiAKltD9dwOcFjVlK8R"
+[languages.en.params.logo]
+logoText = "bradley newman."
+logoHomeLink = "/"
 
 # Main menu which appears below site header.
-
+[menu]
 [[menu.main]]
 name = "Tutorials"
 url = "/tutorials"

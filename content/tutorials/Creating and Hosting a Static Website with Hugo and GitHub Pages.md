@@ -18,7 +18,7 @@ This tutorial is written with Windows in mind. Hugo is available on other platfo
 
 Hugo Extended is used instead of the standard Hugo.
 
-## Prequisites
+## Prerequisites
 
 ### Scoop
 

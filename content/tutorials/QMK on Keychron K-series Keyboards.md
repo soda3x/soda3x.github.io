@@ -192,7 +192,7 @@ git checkout 96d0671481abb3b9c751a1e35b558a86c55d9d92
 make git-submodule
 ```
 
-2. There is a bug in this commit of the QMK Firmware where your firmware cannot be built as the `/keyboards/` directory is too large. To remedy this, delete all other makes of keyboards from that directory except for Keychron.
+2. There is a bug in this commit of the QMK Tools where your firmware cannot be built as the `/keyboards/` directory is too large. To remedy this, delete all other makes of keyboards from that directory except for Keychron.
 
 3. Finally, follow the steps in the [Building the QMK Firmware](#building-the-qmk-firmware) section and then [flash the firmware](#flashing-the-firmware).
 

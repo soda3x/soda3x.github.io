@@ -9,7 +9,7 @@ tags: ['keyboard', 'hardware', 'firmware']
 
 ![K2](https://camo.githubusercontent.com/44dc2640943027c875bbac30150e6679b0e1910852a04896f0bfa88345670d04/68747470733a2f2f63646e2e73686f706966792e636f6d2f732f66696c65732f312f303035392f303633302f313031372f742f352f6173736574732f70662d36643232343931352d2d4b65796368726f6e4b32776972656c6573736d656368616e6963616c6b6579626f6172644d616357696e646f7773694f53416e64726f69644b65796368726f6e47617465726f6e6d656368616e6963616c737769746368726564626c756562726f776e6465736b746f7073657475706865726f2d4564697465642e6a7067)
 
-## What is QMK, and why would I want it? The story of the almost perfect keyboard
+## What is QMK, and why would I want it? The tale of the almost perfect keyboard
 
 Quantum Mechanical Keyboard (QMK) is a keyboard firmware providing basically endless customisation.
 
@@ -116,6 +116,8 @@ The `-kb` parameter is used to specify which keyboard to use from the `/keyboard
 ![Sonix Flasher Bootloader Mode](/qmk-1.png)
 
 You should see SN32F248B (bootloader) in the detected device list and the SN32F24x radio button should be selected.
+
+4. You may now remove the tweezers and put the spacebar back on.
 
 ### The Actual Flashing Part
 

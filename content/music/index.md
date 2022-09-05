@@ -1,7 +1,7 @@
 ---
 title: "Music Timeline"
 date: 2022-08-07T10:32:23+09:30
-draft: true
+draft: false
 toc: false
 images:
 ---

@@ -31,6 +31,10 @@ name = "github"
 url = "https://github.com/soda3x/"
 
 [[params.social]]
+name = "linkedin"
+url = "https://au.linkedin.com/in/bradley-newman-9b3a12184/"
+
+[[params.social]]
 name = "soundcloud"
 url = "https://soundcloud.com/okamimusician/"
 

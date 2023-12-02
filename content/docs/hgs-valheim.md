@@ -1,7 +1,9 @@
 ---
 title: "Heaps Good Servers - Valheim Server Instructions"
 date: 2023-12-02T13:16:04+10:30
+toc: true
 draft: false
+tags: ['heaps good servers', 'valheim', 'games', 'server']
 ---
 ## Foreword
 

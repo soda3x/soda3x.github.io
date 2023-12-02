@@ -10,7 +10,7 @@ This guide serves to document how to set up Valheim with Valheim Plus and connec
 ## Windows
 
 1. Install Valheim
-2. Download this https://github.com/Grantapher/ValheimPlus/releases/latest/download/WindowsClient.zip
+2. Download this: https://github.com/Grantapher/ValheimPlus/releases/latest/download/WindowsClient.zip
 3. Extract it and move the extracted files to the Valheim directory
     - This directory is usually in `C:\Program Files(x86)\Steam\steamapps\common\Valheim`
     - If it's not there, open Steam, click Valheim > Gear icon > Manage > Browse Local Files
@@ -41,7 +41,7 @@ This guide serves to document how to set up Valheim with Valheim Plus and connec
 
 ## For Admins
 
-To control the server, go to `https://valheim01.heapsgoodservers.com` - message me for log in details
+To control the server, go to https://valheim01.heapsgoodservers.com - message me for log in details
 
 ## Steam Deck
 
@@ -62,12 +62,29 @@ To control the server, go to `https://valheim01.heapsgoodservers.com` - message 
 
 1. Install Valheim
 2. Start a console session either via ssh (see above) or using Konsole on the Deck itself
-3. Download Valheim Plus by running the following: `curl -OJL https://github.com/Grantapher/ValheimPlus/releases/latest/download/UnixClient.zip`
-4. Extract the zip and enter the directory by running the following: `mkdir vplus && unzip UnixClient.zip -d ./vplus && cd ./vplus`
-5. Run the following to copy V+ to your Valheim install directory: `cp -r . /home/deck/.steam/steam/steamapps/common/Valheim`
-6. Fix permissions on the files by running: `cd /home/deck/.steam/steam/steamapps/common/Valheim && sudo chmod 777 ./start_game_bepinex.sh` Note: You may be asked for your password
+3. Download Valheim Plus by running the following:
+
+```sh
+curl -OJL https://github.com/Grantapher/ValheimPlus/releases/latest/download/UnixClient.zip
+```
+
+4. Extract the zip and enter the directory by running the following:
+
+```sh
+mkdir vplus && unzip UnixClient.zip -d ./vplus && cd ./vplus
+```
+
+5. Run the following to copy V+ to your Valheim install directory:
+
+```sh
+cp -r . /home/deck/.steam/steam/steamapps/common/Valheim
+```
+6. Fix permissions on the files by running (Note: You may be asked for your password):
+
+```sh
+cd /home/deck/.steam/steam/steamapps/common/Valheim && sudo chmod 777 ./start_game_bepinex.sh
+```
 7. On your Steam Deck, navigate to Valheim > Gear icon > Properties
 8. Under Launch arguments, if the option "Ask when starting game" is shown, click this and change to "Play Valheim"
 9. In the text box underneath, type the following: `.\start_game_bepinex.sh; echo %command%`
 10. Play (you should see Valheim Plus on the title screen if it worked, otherwise you messed up somewhere)
-

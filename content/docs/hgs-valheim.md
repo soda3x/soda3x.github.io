@@ -79,11 +79,13 @@ mkdir vplus && unzip UnixClient.zip -d ./vplus && cd ./vplus
 ```sh
 cp -r . /home/deck/.steam/steam/steamapps/common/Valheim
 ```
+
 6. Fix permissions on the files by running (Note: You may be asked for your password):
 
 ```sh
 cd /home/deck/.steam/steam/steamapps/common/Valheim && sudo chmod 777 ./start_game_bepinex.sh
 ```
+
 7. On your Steam Deck, navigate to Valheim > Gear icon > Properties
 8. Under Launch arguments, if the option "Ask when starting game" is shown, click this and change to "Play Valheim"
 9. In the text box underneath, type the following: `.\start_game_bepinex.sh; echo %command%`

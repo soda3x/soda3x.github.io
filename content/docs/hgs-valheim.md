@@ -90,3 +90,23 @@ cd /home/deck/.steam/steam/steamapps/common/Valheim && sudo chmod 777 ./start_ga
 8. Under Launch arguments, if the option "Ask when starting game" is shown, click this and change to "Play Valheim"
 9. In the text box underneath, type the following: `.\start_game_bepinex.sh; echo %command%`
 10. Play (you should see Valheim Plus on the title screen if it worked, otherwise you messed up somewhere)
+
+## Epic Loot
+
+Epic Loot is a mod that adds an RPG-like loot table to the game
+
+The server and all clients are required to have it, and it's dependencies installed
+
+### Windows
+
+1. Download this: https://github.com/RandyKnapp/ValheimMods/releases/download/v0.9.9/RandyKnapp-EpicLoot-0.9.9.zip
+2. Create a folder in your BepInEx plugins directory (most likely `C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\plugins`) called `EpicLoot`
+3. Move the contents of the `files` directory to this newly created folder
+
+### Steam Deck
+
+1. Run the following to download and install the mod:
+
+```sh
+cd ~ && curl -OJL https://github.com/RandyKnapp/ValheimMods/releases/download/v0.9.9/RandyKnapp-EpicLoot-0.9.9.zip && unzip RandyKnapp-EpicLoot-0.9.9.zip -d epicloot && cd epicloot && cd files && mkdir /home/deck/.steam/steam/steamapps/common/Valheim/BepInEx/plugins/EpicLoot && cp -r . /home/deck/.steam/steam/steamapps/common/Valheim/BepInEx/plugins/EpicLoot && cd ~
+```

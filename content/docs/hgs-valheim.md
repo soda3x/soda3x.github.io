@@ -90,7 +90,7 @@ cd /home/deck/.steam/steam/steamapps/common/Valheim && sudo chmod 777 ./start_ga
 
 7. On your Steam Deck, navigate to Valheim > Gear icon > Properties
 8. Under Launch arguments, if the option "Ask when starting game" is shown, click this and change to "Play Valheim"
-9. In the text box underneath, type the following: `.\start_game_bepinex.sh; echo %command%`
+9. In the text box underneath, type the following: `./start_game_bepinex.sh; echo %command%`
 10. Play (you should see Valheim Plus on the title screen if it worked, otherwise you messed up somewhere)
 
 ## Epic Loot

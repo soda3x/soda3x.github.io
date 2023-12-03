@@ -99,6 +99,8 @@ Epic Loot is a mod that adds an RPG-like loot table to the game
 
 The server and all clients are required to have it, and it's dependencies installed
 
+> Note: this does not work from patch Hildir's Request onwards, will update if it's ever fixed
+
 ### Windows
 
 1. Download this: https://github.com/RandyKnapp/ValheimMods/releases/download/v0.9.9/RandyKnapp-EpicLoot-0.9.9.zip

@@ -9,6 +9,11 @@ tags: ['heaps good servers', 'valheim', 'games', 'server']
 
 This guide serves to document how to set up Valheim with Valheim Plus and connect to the HGS Valheim Server
 
+## Updates
+
+If Valheim updates and stops working with Valheim Plus, check [here](https://github.com/Grantapher/ValheimPlus/releases) for newer versions (alpha and beta releases)
+For Windows, you want to download the `WindowsClient.zip` file and for Steam Deck / Linux you want `UnixClient.zip`.
+
 ## Windows
 
 1. Install Valheim

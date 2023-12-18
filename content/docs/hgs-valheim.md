@@ -46,6 +46,18 @@ For Windows, you want to download the `WindowsClient.zip` file and for Steam Dec
     - Rotate X-axis with C key
     - Rotate Z-axis with V key
 
+## Mods
+
+HGS Valheim uses the following mods:
+
+* PlantEverything
+* Clock
+* Better Equipment and Quickslots
+
+These mods can be downloaded from [here](https://drive.google.com/drive/folders/16zlHD82SPbPuU3AsSAHgPJRubU_Q6-md?usp=drive_link)
+
+To install them, paste the files in `<valheim-install-directory>/BepInEx/plugins`
+
 ## For Admins
 
 To control the server, go to https://valheim01.heapsgoodservers.com - message me for log in details

@@ -11,8 +11,9 @@ This guide serves to document how to set up Valheim with Valheim Plus and connec
 
 ## Updates
 
-If Valheim updates and stops working with Valheim Plus, check [here](https://github.com/Grantapher/ValheimPlus/releases) for newer versions (alpha and beta releases)
-For Windows, you want to download the `WindowsClient.zip` file and for Steam Deck / Linux you want `UnixClient.zip`.
+If Valheim updates and stops working with Valheim Plus, check [here](https://github.com/Grantapher/ValheimPlus/releases) for newer versions (including alpha and beta releases).
+
+In the assets section, for Windows, you want to download the `WindowsClient.zip` file and for Steam Deck / Linux you want `UnixClient.zip`.
 
 ## Windows
 
@@ -53,10 +54,12 @@ HGS Valheim uses the following mods:
 * PlantEverything
 * Clock
 * Better Equipment and Quickslots
+* Epic Loot
+* Project Auga (optional, big UI overhaul)
 
 These mods can be downloaded from [here](https://drive.google.com/drive/folders/16zlHD82SPbPuU3AsSAHgPJRubU_Q6-md?usp=drive_link)
 
-To install them, paste the files in `<valheim-install-directory>/BepInEx/plugins`
+To install them, paste the files / folders in `<valheim-install-directory>/BepInEx/plugins`
 
 ## For Admins
 
@@ -109,25 +112,3 @@ cd /home/deck/.steam/steam/steamapps/common/Valheim && sudo chmod 777 ./start_ga
 8. Under Launch arguments, if the option "Ask when starting game" is shown, click this and change to "Play Valheim"
 9. In the text box underneath, type the following: `./start_game_bepinex.sh; echo %command%`
 10. Play (you should see Valheim Plus on the title screen if it worked, otherwise you messed up somewhere)
-
-## Epic Loot
-
-Epic Loot is a mod that adds an RPG-like loot table to the game
-
-The server and all clients are required to have it, and it's dependencies installed
-
-> Note: this does not work from patch Hildir's Request onwards, will update if it's ever fixed
-
-### Windows
-
-1. Download this: https://github.com/RandyKnapp/ValheimMods/releases/download/v0.9.9/RandyKnapp-EpicLoot-0.9.9.zip
-2. Create a folder in your BepInEx plugins directory (most likely `C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\plugins`) called `EpicLoot`
-3. Move the contents of the `files` directory to this newly created folder
-
-### Steam Deck
-
-1. Run the following to download and install the mod:
-
-```sh
-cd ~ && curl -OJL https://github.com/RandyKnapp/ValheimMods/releases/download/v0.9.9/RandyKnapp-EpicLoot-0.9.9.zip && unzip RandyKnapp-EpicLoot-0.9.9.zip -d epicloot && cd epicloot && cd files && mkdir /home/deck/.steam/steam/steamapps/common/Valheim/BepInEx/plugins/EpicLoot && cp -r . /home/deck/.steam/steam/steamapps/common/Valheim/BepInEx/plugins/EpicLoot && cd ~
-```
